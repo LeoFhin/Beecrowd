@@ -20,16 +20,11 @@ public class Main {
 
         double somaPeso = pesoA + pesoB;
 
-        System.out.println("Dígite a primera nota: ");
         double notaA = sc.nextDouble();
-
-        System.out.println("Dígite a segunda nota: ");
         double notaB = sc.nextDouble();
 
         double media = ((notaA * pesoA) + (notaB * pesoB)) / somaPeso;
 
-        System.out.format("MEDIA = %.5f", media);
-
+        System.out.println(String.format("MEDIA = %.5f" , media));
     }
-
 }
